@@ -1,0 +1,266 @@
+package co.com.utils.ucm.templates;
+
+public abstract interface TagsBPM {
+    public static final String T_CLIENTE = "<bpm:Fideicomitente/Contratista>";
+    public static final String T_LUGAR = "<bpm:Lugar>";
+    public static final String T_FECHA = "<bpm:Fecha>";
+    public static final String T_DURACION = "<bpm:DuracionEstimada>";
+    public static final String T_ASISTENTES = "<bpm:Asistente>";
+    public static final String T_TIPO_CONTRATO = "<bpm:TipoContrato>";
+    public static final String T_OBJETO_CONTRATO = "<bpm:ObjetoContrato>";
+    public static final String T_OTROS_ASP_FINANCIEROS = "<bpm:OtrosAspectosFinancieros>";
+    public static final String T_ASP_TECNICOS = "<bpm:AspectosTecnicos>";
+    public static final String T_TAREAS_ASIGNADAS = "<bpm:TareasAsignadas>";
+    public static final String T_APROBACION_ACTA = "<bpm:AprobacionActa>";
+    public static final String T_NUMERO_CONTRATO = "<bpm:NumeroContrato>";
+    public static final String T_CARGO_CLIENTE = "<bpm:CargoFideicomitente/Contratista >";
+    public static final String T_MES = "<bpm:Mes>";
+    public static final String T_ANIO = "<bpm:Anio>";
+    public static final String T_NOMBRE_CONTRATO = "<bpm:NombreContrato>";
+    public static final String T_REPORTE_SUPERFINANCIERA = "<bpm:ReporteSupeFinanciera>";
+    public static final String T_FECHA_FIRMA_CONTRATO = "<bpm:FechaFirmaContrato>";
+    public static final String T_FECHA_INICIAL_CONTRATO = "<bpm:FechaInicialContrato>";
+    public static final String T_FECHA_FINAL_CONTRATO = "<bpm:FechaFinalContrato>";
+    public static final String T_ESTADO_CONTRATO = "<bpm:EstadoContrato>";
+    public static final String T_RESPONSABLE_NEGOCIO = "<bpm:NombreResponsableNegocio>";
+    public static final String T_OTROSI = "<bpm:OtroSi>";
+    public static final String T_OBLIGACION_FIDUCIARIA = "<bpm:OblFiduciaria>";
+    public static final String T_OBLIGACION_CLIENTE = "<bpm:OblFideicomitente>";
+    public static final String T_DATOS_FIDEICOMITENTE = "<bpm:DatosFideicomitente>";
+    public static final String T_DATOS_BENEFICIARIO = "<bpm:DatosBeneficiario>";
+    public static final String T_DATOS_SARLAFT = "<bpm:DatosSarlaft>";
+    public static final String T_CLIENTES = "<bpm:Fideicomitentes/Contratistas>";
+    public static final String T_POLIZA = "<bpm:Poliza>";
+    public static final String T_AMPARO = "<bpm:Amparo>";
+    public static final String T_TIPO_NEGOCIO = "<bpm:TipoNegocio>";
+    public static final String T_SUBTIPO_NEGOCIO = "<bpm:SubTipoNegocio>";
+    public static final String T_COMISION = "<bpm:Comision/Honorarios>";
+    public static final String T_DESC_COMISION = "<bpm:DescComision/Honorarios>";
+    public static final String T_NUMERO_DURACION = "<bpm:NumeroDuracion>";
+    public static final String T_TIEMPO_DURACION = "<bpm:Tiempo>";
+    public static final String T_CALENDARIO = "<bpm:Calendario>";
+    public static final String T_ADMINISTRA_CONSORCIO = "<bpm:AdmConsorcio>";
+    public static final String T_ENTIDAD_CONSORCIO = "<bpm:EtidadConsorcio>";
+    public static final String T_CONTACTO_FIDUCIARIO = "<bpm:ContactoFiduciario>";
+    public static final String T_DATOS_NEGOCIO = "<bpm:DatosNegocio>";
+    public static final String T_REVISORIA_FISCAL = "<bpm:RevisoriaFiscal>";
+    public static final String T_CONTRATO_DERIVADO = "<bpm:ContratoDerivado>";
+    public static final String T_PROCESO_JUDICIAL = "<bpm:ProcesoJudicial>";
+    public static final String T_CUENTAS_COBRAR = "<bpm:CuentasPorCobrar>";
+    public static final String T_ACTIVOS_FIJOS = "<bpm:ActivosFijos>";
+    public static final String T_NOMINA = "<bpm:Nomina>";
+    public static final String T_BIENES_INSCRITOS = "<bpm:BienesInscritos>";
+    public static final String T_PER_INF_GESTION = "<bpm:PeriodicidadInformeGestion>";
+    public static final String T_AMPARO_CUMPLIMIENTO = "<bpm:AmparoCumplimiento>";
+    public static final String T_FECHA_FINAL_AMPARO = "<bpm:FechaFinalAmparoCumplimiento>";
+    public static final String T_POLIZA_CUMPLIMIENTO = "<bpm:PolizaCumplimiento>";
+    public static final String T_VIGENCIA_POLIZA_DESDE = "<bpm:VigenciaPolizaDesde>";
+    public static final String T_VIGENCIA_POLIZA_HASTA = "<bpm:VigenciaPolizaHasta>";
+    public static final String T_AMPARO_CALIDAD_SERVICIO = "<bpm:AmparoCalidadServicio>";
+    public static final String T_FECHA_FINAL_AMPARO_CAL_SERVICIO = "<bpm:FechaFinalAmparoCalidadServicio>";
+    public static final String T_AMPARO_SALARIO_PREST_SOCIAL = "<bpm:AmparoSalariosPrestSociales>";
+    public static final String T_FECHA_FINAL_AMPARO_SALARIO_PREST_SOCIAL =
+        "<bpm:FechaFinalAmparoSalariosPrestSociales>";
+    public static final String T_INFIDELIDAD_RIESGO_FINANCIERO = "<bpm:InfidelidadRiesgoFinanciero>";
+    public static final String T_REQUIERE_PUBLICACION_CONTRATO = "<bpm:RequierePublicacionContrato>";
+    public static final String T_CTAS_BANCARIAS = "<bpm:CuentasBancarias>";
+    public static final String T_CANTIDAD_AHORRO = "<bpm:CantAhorro>";
+    public static final String T_CANTIDAD_CORRIENTE = "<bpm:CantCorriente>";
+    public static final String T_SEG_MENS_NEGOCIO_CTAS_BANCARIAS = "<bpm:SeguimientoMensualNegocioCtasBco>";
+    public static final String T_SALDO_FECHA_CTAS_BANCARIAS = "<bpm:SaldoFechaCtasBco>";
+    public static final String T_CARTERAS_COLECTIVAS = "<bpm:CarterasColectivas>";
+    public static final String T_CANT_CARTERAS_COLECTIVAS = "<bpm:CantCarterasColectivas>";
+    public static final String T_SEG_MENS_NEGOCIO_CARTERAS_COLECTIVAS = "<bpm:SeguimientoMensualNegocioCartCol>";
+    public static final String T_PORTAFOLIO_INVERSIONES = "<bpm:PortInversiones>";
+    public static final String T_GESTOR_PORTAFOLIO_INVERSIONES = "<bpm:GestorPortInversiones>";
+    public static final String T_SEG_MENS_NEGOCIO_PORTAFOLIO_INVERSIONES =
+        "<bpm:SeguimientoMensualNegocioPortInversiones>";
+    public static final String T_RECURSO_DISPONIBLE_SALDO_FECHA = "<bpm:RecDispSaldoFecha>";
+    public static final String T_SEG_MENS_NEGOCIO_REC_DISP_SALDO_FECHA =
+        "<bpm:SeguimientoMensualNegocioRecDispSaldoFecha>";
+    public static final String T_CLASIFICACION_CARTERA = "<bpm:ClasCartera>";
+    public static final String T_SALDO_FECHA_CLASIFICACION_CARTERA = "<bpm:SaldoFechaClasCartera>";
+    public static final String T_SEG_MENS_NEGOCIO_CLASIFICACION_CARTERA = "<bpm:SeguimientoMensualNegocioClasCartera>";
+    public static final String T_APORTE_MENSUAL = "<bpm:AportesMes>";
+    public static final String T_SEG_MENS_NEGOCIO_APORTE_MENSUAL = "<bpm:SeguimientoMensualNegocioAporteMes>";
+    public static final String T_PAGO_INDIVIDUAL = "<bpm:PagosIndividuales>";
+    public static final String T_PAGO_MASIVO = "<bpm:PagosMasivos>";
+    public static final String T_SEG_MENS_NEGOCIO_PAGO_MENSUAL = "<bpm:SeguimientoMensualNegocioPagosMensuales>";
+    public static final String T_VALOR_PAGO_MENSUAL = "<bpm:ValorPagosMensuales>";
+    public static final String T_SEG_MENS_NEGOCIO_VALOR_PAGO_MENSUAL =
+        "<bpm:SeguimientoMensualNegocioVrPagosMensuales>";
+    public static final String T_PROCESOS_JUDICIALES_FECHA = "<bpm:ProcesoJudicialFecha>";
+    public static final String T_SEG_MENS_NEGOCIO_PROCESO_JUDICIAL_FECHA =
+        "<bpm:SeguimientoMensualNegocioProcesoJudicialFecha>";
+    public static final String T_QUEJAS_RECLAMOS_MES = "<bpm:QuejasReclamosMes>";
+    public static final String T_SEG_MENS_NEGOCIO_QUEJAS_RECLAMO_MES =
+        "<bpm:SeguimientoMensualNegocioQuejasReclamosMes>";
+    public static final String T_TUTELA_DERECHO_PETICION_MES = "<bpm:TutelaDerechoPeticionMes>";
+    public static final String T_SEG_MENS_NEGOCIO_TUTELA_DERECHO_PETICION_MES =
+        "<bpm:SeguimientoMensualNegocioTutelaDerechoPeticionMes>";
+    public static final String T_GESTION_OPERACION_SOSPECHOSA = "<bpm:GestionOperacionSospechosa>";
+    public static final String T_FECHA_INICIO_LIQUIDACION = "<bpm:FechaInicioLiquidacion>";
+    public static final String T_SEG_MENS_NEGOCIO_FECHA_INICIO_LIQUIDACION =
+        "<bpm:SeguimientoMensualNegocioFechaInicioLiquidacion>";
+    public static final String T_ETAPA_PROCESO = "<bpm:EtapaProceso>";
+    public static final String T_SEG_MENS_NEGOCIO_ETAPA_PROCESO = "<bpm:SeguimientoMensualNegocioEtapaProceso>";
+    public static final String T_DIAS_TRANSCURRIDOS_LIQUIDAR = "<bpm:DiasTranscurridosLiquidar>";
+    public static final String T_SEG_MENS_NEGOCIO_DIAS_TRANSCURRIDO_LIQUIDAR =
+        "<bpm:SeguimientoMensualalNegocioDiasTranscurridosLiquidar>";
+    public static final String T_DATOS_RESPONSABLE_NEGOCIO = "<bpm:DatosResponsableNegocio>";
+    public static final String T_DATOS_PERSONAL_APOYO = "<bpm:DatosPersonalApoyo>";
+    public static final String T_ACTIVIDADES_PENDIENTES_TEMAS_RELEVANTES = "<bpm:ActividadesPendientesTemasRelevantes>";
+    public static final String T_PERIODICIDAD_INFORME_GESTION = "<bpm:PeriodicidadInformeGestion>";
+    public static final String T_SEG_MENS_NEGOCIO_GESTION_OPERACION_SOSPECHOSA =
+        "<bpm:SeguimientoMensualNegocioGestionOperacionSospechosa>";
+    public static final String T_SALDO_FECHA_CARTERA_COLECTIVA = "<bpm:SaldoFechaCartCol>";
+    public static final String T_SOLICITUD_OTROSI_SUSPENSION = "<bpm:SolicitudOtrosiSuspension>";
+    public static final String T_DECISION_TIPO_NEGOCIO = "<bpm:DecisionTipoNegocio>";
+    public static final String T_JUSTIFICACION_OTROSI = "<bpm:JustificacionOtrosi>";
+    public static final String T_OBSERVACION_JUSTIFICACION_OTROSI = "<bpm:ObservacionJustificacionOtrosi>";
+    public static final String T_DOCUMENTO_GENERA_APRUEBA_MODIFICACION = "<bpm:DocumentoGeneraApruebaModificacion>";
+    public static final String T_SARLAFT_FIDEICOMITENTE = "<bpm:SarlaftFideicomitente>";
+    public static final String T_FECHA_ACTUALIZACION_FIDEICOMITENTE = "<bpm:FechaActualizacionFideicomitente>";
+    public static final String T_SARLAFT_FIRMA_AUTORIZADA = "<bpm:SarlaftFirmaAutoriza>";
+    public static final String T_FECHA_ACTUALIZACION_FIRMA_AUTORIZADA = "<bpm:FechaActualizacionFirmaAutorizada>";
+    public static final String T_ESTADO_POLIZA = "<bpm:EstadoPoliza>";
+    public static final String T_ESTADO_OPERATIVIDAD_VS_COMISIONES = "<bpm:EstadoPeratividadVsComisiones>";
+    public static final String T_ESTADO_CUMPLIMIENTO_CLIENTE = "<bpm:EstadoCumplimientoCliente>";
+    public static final String T_ESTADO_OBSERVACION_ESPECIAL = "<bpm:EstadoObservacionesEspeciales>";
+    public static final String T_REQUIERE_APROBACION_RESPONSABLE_VIC_COMERCIAL =
+        "<bpm:RequiereAprobacionResponsableVicComercial>";
+    public static final String T_ASOCIA_SUBCUENTA = "<bpm:AsociaSubcuenta>";
+    public static final String T_NOMBRE_SUBCUENTA = "<bpm:NombreSubcuenta>";
+    public static final String T_CODIGO_SUBCUENTA = "<bpm:CodigoSubcuenta>";
+    public static final String T_ADMINISTRA_RECURSOS_PUBLICOS = "<bpm:AdminRecPublico>";
+    public static final String T_EXENTO_GMF = "<bpm:ExentoGMF>";
+    public static final String T_EXENTO_RETEFUENTE = "<bpm:ExentoReteFuente>";
+    public static final String T_TIPO_CARTERA_COLECTIVA = "<bpm:TipoCarteraColectiva>";
+    public static final String T_CODIGO_CARTERA_COLECTIVA = "<bpm:CodigoCarColectiva>";
+    public static final String T_SALDO_CARTERA_COLECTIVA = "<bpm:SaldoCarColectiva>";
+    public static final String T_BENEFICIARIO_REMANENTE = "<bpm:BeneficiarioRemanente>";
+    public static final String T_BANCO_CARTERA_COLECTIVA = "<bpm:EntBcaCarColectiva>";
+    public static final String T_TIPO_CUENTA_CARTERA_COLECTIVA = "<bpm:TipoCtaCarColectiva>";
+    public static final String T_NUMERO_CUENTA_CARTERA_COLECTIVA = "<bpm:NumeroCtaCarColectiva>";
+    public static final String T_MOTIVO_CANCELACION_CARTERA_COLECTIVA = "<bpm:MotivoCancelacionCarColectiva>";
+    public static final String T_FUENTE_RECURSOS = "<bpm:FuenteRecurso>";
+    public static final String T_ADMINISTRA_REGALIAS = "<bpm:AdminRegalias>";
+    public static final String T_ADMINISTRA_RECURSOS_SEGURIDAD_SOCIAL = "<bpm:AdminRecSeguridadSocial>";
+    public static final String T_OTROS_RECURSOS_ESPECIALES = "<bpm:OtrosRecEspecial>";
+    public static final String T_MONTO_ESTIMADO_RECURSOS_ADMINISTRAR = "<bpm:MontoEstimadoRecAdmin>";
+    public static final String T_ACH = "<bpm:ACH>";
+    public static final String T_CHEQUE = "<bpm:Cheque>";
+    public static final String T_EN_EXTERIOR = "<bpm:EnExterior>";
+    public static final String T_CANT_ESTIMADA_OPERACIONES_RECAUDOS_MENSUALES =
+        "<bpm:CantEstOperRecaudosAportesIngresosRecibirMens>";
+    public static final String T_CANT_ESTIMADA_PAGOS_MENSUALES = "<bpm:CantEstPagosMens>";
+    public static final String T_RETENCION_PAGO_IMPUESTOS_PAGO_FIDEICOMISO =
+        "<bpm:RetencionPagoImpuestosPagosFideicomiso>";
+    public static final String T_REQUIERE_CONVENIOS_BANCARIOS = "<bpm:RequiereConveniosBancarios>";
+    public static final String T_GASTOS_ASUMIDOS_FIDEICOMISO = "<bpm:GastosFinanAsumeFideicomiso>";
+    public static final String T_SISTEMA_FINANCIERO = "<bpm:SistFinanciero>";
+    public static final String T_SRP = "<bpm:SRP>";
+    public static final String T_SMP = "<bpm:SMP>";
+    public static final String T_FLEXIFON = "<bpm:FLEXIFON>";
+    public static final String T_PORFIN = "<bpm:PORFIN>";
+    public static final String T_LIQUIDACION_NOMINA = "<bpm:LiqNomina>";
+    public static final String T_OFICINA_ADMINISTRA_NEGOCIO = "<bpm:OficinaAdminNegocio>";
+    public static final String T_MANEJO_SUBCUENTA = "<bpm:Manejo Subcuentas>";
+    public static final String T_MANUAL_OPERATIVO = "<bpm:RequiereManualOperativo>";
+    public static final String T_INFORME_GESTION_PERIODICIDAD = "<bpm:TipoInformePeriodicidad>";
+    public static final String T_COMITE_FIDUCIARIO = "<bpm:ComitFiduciarios>";
+    public static final String T_PERIODICIDAD_COMITE_FIDUCIARIO = "<bpm:PeriodicidadComit>";
+    public static final String T_DESCRIPCION_COMITE_FIDUCIARIO = "<bpm:DescComitFiduciarios>";
+    public static final String T_DESCRIPCION_BENEFICIARIOS = "<bpm:DescBeneficiarios>";
+    public static final String T_CONTROL_PRESUPUESTAL_RECURSOS = "<bpm:ControlPresupuestalRecursos>";
+    public static final String T_DESTINO_RENDIMIENTOS_GENERADOS = "<bpm:DestRendimientosGenerados>";
+    public static final String T_REQUIERE_CALCULO_ACTUARIAL = "<bpm:RequiereCalculoActuarial>";
+    public static final String T_ADMINISTRA_PROCESOS_JUDICIALES = "<bpm:AdminProcesosJudiciales>";
+    public static final String T_OBJETO_ACTIVOS_FIJOS = "<bpm:ObjetoActivosFijos>";
+    public static final String T_MANEJO_CONTRATACION_DERIVADA_ENTIDAD = "<bpm:ManejoContratacionDerivadEntidad>";
+    public static final String T_MANEJO_UNIDAD_GESTION = "<bpm:UnidadGestion>";
+    public static final String T_DICTAMEN_REVISORIA_FISCAL = "<bpm:RequiereDictamenRevisoriaFiscal>";
+    public static final String T_DESCUENTO_DIRECTO = "<bpm:DescuentoDirecto>";
+    public static final String T_CARTA_INSTRUCCION_PAGARE = "<bpm:CartaInstruccionPagare>";
+    public static final String T_GENERA_COMISION_LIQUIDACION = "<bpm:GeneraComisi�nDuranteLiq>";
+    public static final String T_REQUIERE_APODERADO_GENERAL = "<bpm:RequiereApoderadoGeneral>";
+    public static final String T_ASESORIA_EXTERNA = "<bpm:AsesoriasExternas>";
+    public static final String T_PORCENTAJE_ESTIMADO_PROVISIONES = "<bpm:PorcentajeEstimadoProvisiones>";
+    public static final String T_OTROS_INFORMES_ESPECIALES_ENTES_CONTROL = "<bpm:OtrosinformesEspecialesEntesControl>";
+    public static final String T_REQUIERE_PUBLICACION_ACTA_LIQUIDACION =
+        "<bpm:RequierePublicaci�nActaLiqFinalizarContrato>";
+    public static final String T_OTROS_ASPECTOS_OPERATIVOS = "<bpm:OtrosAspectosOperativos>";
+    public static final String T_DESCRIPCION_OTROS_INFORMES = "<DescOtrosinformes>";
+    public static final String T_DESCRIPCION_POLIZA = "<bpm:DescPoliza>";
+    public static final String T_PROCEDENCIA_CUENTA = "<bpm:ProcedenciaCuenta>";
+    public static final String T_CIUDAD_PAIS = "<bpm:CiudadPais>";
+    public static final String T_ENTIDAD_BANCARIA = "<bpm:EntidadBancaria>";
+    public static final String T_NOMBRE_CUENTA = "<bpm:NombreCuenta>";
+    public static final String T_NIT_CUENTA = "<bpm:NITCuenta>";
+    public static final String T_CODIGO_FIDEICOMISO = "<bpm:CodigoFideicomiso>";
+    public static final String T_TIPO_CUENTA = "<bpm:TipoCuenta>";
+    public static final String T_CONVENIO_BANCARIO = "<bpm:ConvenioBancario>";
+    public static final String T_CONCEPTO_CONVENIO_BANCARIO = "<bpm:ConceptoConvenioBancario>";
+    public static final String T_REQUIERE_CHEQUERA = "<bpm:RequiereChequera>";
+    public static final String T_REPORTA_TRANSACCION_EFECTIVO = "<bpm:ReportaTransaccionEfectivo>";
+    public static final String T_REALIZA_PAGO_PARAFISCAL = "<bpm:RealizaPagoParafiscal>";
+    public static final String T_REPORTA_PORFIN_PASIVO_PENSIONAL = "<bpm:ReportaPORFIN>";
+    public static final String T_DATOS_ACCESO_PORTAL_BANCARIO = "<bpm:DatosAccesoPortal>";
+    public static final String T_REQUIERE_ACCESO_PORTAL_BANCARIO = "<bpm:RequiereAccesoPortalBancario>";
+    public static final String T_EXTENSION_RESPONSABLE_NEGOCIO = "<bpm:ExtensionResponsableNegocio>";
+    public static final String T_CUENTA_TIENE_SALDO = "<bpm:CuentaTieneSaldo>";
+    public static final String T_CHEQUE_A_FAVOR_DE_NOMBRE = "<bpm:ChequeAFavorNombre>";
+    public static final String T_CHEQUE_A_FAVOR_DE_NIT = "<bpm:ChequeAFavorNIT>";
+    public static final String T_CONSIGNAR_CHEQUE_EN = "<bpm:ConsignarChequeEn>";
+    public static final String T_NOMBRE_CUENTA_CHEQUE = "<bpm:NombreCuentaCheque>";
+    public static final String T_ENTIDAD_BANCARIA_CHEQUE = "<bpm:EntidadBancariaCheque>";
+    public static final String T_NUMERO_CUENTA_CHEQUE = "<bpm:NITCuentaCheque>";
+    public static final String T_TIPO_CUENTA_CHEQUE = "<bpm:TipoCuentaCheque>";
+    public static final String T_NOMBRE_CUENTA_TRASLADO = "<bpm:NombreCuentaTraslado>";
+    public static final String T_ENTIDAD_BANCARIA_TRASLADO = "<bpm:EntidadBancariaTraslado>";
+    public static final String T_NUMERO_CUENTA_TRASLADO = "<bpm:NITCuentaTraslado>";
+    public static final String T_TIPO_CUENTA_TRASLADO = "<bpm:TipoCuentaTraslado>";
+    public static final String T_CODIGO_FIDEICOMISO_TRASLADO = "<bpm:CodigoFideicomisoTraslado>";
+    public static final String T_MOTIVO_CANCELACION_CUENTA_BANCARIA = "<bpm:MotivoCancelacionCuentaBancaria>";
+    public static final String T_RECEPCION_NUEVOS_RECURSOS = "<bpm:RecepcionNuevosRecursos>";
+    public static final String T_NIT_NEGOCIO = "<bpm:NITNegocio>";
+    public static final String T_MANUAL_POLITICAS_INVERSION_PROPIO = "<bpm:ManualPoliticaInversionPropio>";
+    public static final String T_MANUAL_POLITICAS_INVERSION_FIDUPREVISORA =
+        "<bpm:ManualPoliticaInversionFiduprevisora>";
+    public static final String T_DECEVAL = "<bpm:Deceval>";
+    public static final String T_DCV = "<bpm:DCV>";
+    public static final String T_CUENTA_EXTERIOR = "<bpm:CuentaExterior>";
+    public static final String T_CUSTODIO_INTERNACIONAL = "<bpm:CustodioInternacional>";
+    public static final String T_GRAN_CONTRIBUYENTE = "<bpm:GranContyribuyente>";
+    public static final String T_CONTRIBUYENTE_IMPUESTO_RENTA = "<bpm:ContribuyenteImpuestoRenta>";
+    public static final String T_PERSONA_JURIDICA = "<bpm:PersonaJuridica>";
+    public static final String T_CALIDAD_AUTO_RETENEDOR = "<bpm:CalidadAutoRetenedor>";
+    public static final String T_PERSONA_NATURAL = "<bpm:PersonaNatural>";
+    public static final String T_PROFESIONAL_INDEPENDIENTE = "<bpm:ProfesionalIndependiente>";
+    public static final String T_RENTA_FIJA = "<bpm:RentaFija>";
+    public static final String T_REPOS = "<bpm:Repos>";
+    public static final String T_SIMULTANEA = "<bpm:Simultanea>";
+    public static final String T_CUENTAS_BANCARIAS = "<bpm:CuentasBancarias>";
+    public static final String T_DIVISAS = "<bpm:Divisas>";
+    public static final String T_NOMBRE_MOVIMIENTO_CONTABLE_CREADO_PORFIN =
+        "<bpm:NombreMovimientoContableCreadoPORFIN>";
+    public static final String T_CARGO_RESPONSABLE_NEGOCIO = "<bpm:CargoResponsableNegocio>";
+    public static final String T_JUSTIFICACION_LIQUIDACION = "<bpm:JustificacionLiquidacion>";
+    public static final String T_OBSERVACION_PAZ_SALVO = "<bpm:ObservacionesPazSalvo>";
+    public static final String T_ASPECTOS_PAZ_SALVO = "<bpm:AspectosPazSalvo>";
+    public static final String T_FIRMA_APROBADOR = "<bpm:FirmaFuncionarioAprobador>";
+    public static final String T_FUNCIONARIO_APROBADOR = "<bpm:FuncionarioAprobador>";
+    public static final String T_NUMERO_RADICADO = "<bpm:NumeroRadicado>";
+    public static final String T_FUNCIONARIO_ORIGINAL = "<bpm:FuncionarioOriginal>";
+    public static final String T_FUNCIONARIO_REMITENTE = "<bpm:FuncionarioRemitente>";
+    public static final String T_ASUNTO = "<bpm:Asunto>";
+    public static final String T_OBSERVACIONES_MEMORANDO = "<bpm:ObservacionMemorando>";
+    public static final String T_FUNCIONARIO_COPIA = "<bpm:FuncionarioCopia>";
+    public static final String T_ANEXOS = "<bpm:Anexos>";
+}
+
+
+/* Location:              D:\OracleClaro\jdeveloper\ComponenteIntegracionUCM\ComponentesIntegracionUCM.jar!\co\com\soaint\compintucm\templates\TagsBPM.class
+ * Java compiler version: 6 (50.0)
+ * JD-Core Version:       0.7.1
+ */

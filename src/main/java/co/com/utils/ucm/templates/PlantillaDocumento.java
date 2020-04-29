@@ -1,0 +1,18 @@
+package co.com.utils.ucm.templates;
+
+public abstract interface PlantillaDocumento {
+    public static final String PLANTILLA_ACTA_NEGOCIOS_FIDUCIARIOS = "PLANTILLA-UCM-GES-010";
+    public static final String PLANTILLA_INFORME_GESTION = "PLANTILLA-UCM-GES-085";
+    public static final String PLANTILLA_RENDICION_CUENTAS = "PLANTILLA-UCM-GES-086";
+    public static final String PLANTILLA_FICHA_CONTROL_SEGUIMIENTO = "PLANTILLA-UCM-GES-044";
+    public static final String PLANTILLA_SOLICITUD_OTROSI = "PLANTILLA-UCM-GES-130";
+    public static final String PLANTILLA_SOLICITUD_APERTURA_CARTERAS_COLECTIVAS = "PLANTILLA-UCM-Ges-126";
+    public static final String PLANTILLA_SOLICITUD_CANCELACION_CARTERAS_COLECTIVAS = "PLANTILLA-UCM-GES-127";
+    public static final String PLANTILLA_SOLICITUD_APERTURA_CUENTA_BANCARIA = "PLANTILLA-UCM-GES-124";
+    public static final String PLANTILLA_SOLICITUD_CANCELACION_CUENTA_BANCARIA = "PLANTILLA-UCM-GES-125";
+    public static final String PLANTILLA_SOLICITUD_INSCRIPCION_NEGOCIOS_NUEVOS = "PLANTILLA-UCM-GES-131";
+    public static final String PLANTILLA_PAZ_SALVO = "PLANTILLA-UCM-GES-053";
+    public static final String PLANTILLA_RENDICION_FINAL_CUENTAS = "PLANTILLA-UCM-GES-088";
+    public static final String PLANTILLA_MEMORANDO = "PLANTILLA-UCM-CORR-001";
+}
+

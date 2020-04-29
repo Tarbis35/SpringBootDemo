@@ -1,0 +1,36 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8" />
+    <title>App Fragments</title>
+</head>
+<body>
+
+
+<!-- Default Navigator -->
+
+<ul th:fragment = "nav-default">
+    <li><a th:href="@{/}">Home</a></li>
+    <li><a th:href="@{/auth/TipoServicios}">Tipos de Servicios</a></li>
+    <li><a th:href="@{/auth/Checkin}">Upload Document</a></li>
+    <li><a th:href="@{/logout}">Logout</a></li>
+    <li><a th:href="@{/about}">About</a></li>
+</ul>
+
+<!-- Admin Navigator -->
+
+<ul th:fragment = "nav-admin">
+    <li><a th:href="@{/auth/TipoServicios}">List Tipo Servicio</a></li>
+    <li><a th:href="@{/auth/Checkin}">Upload Document</a></li>
+    <li><a th:href="@{/logout}">Logout</a></li>
+</ul>
+
+
+
+<div th:fragment="copyright">
+    &copy; Leonardo Vanegas
+</div>
+
+
+</body>
+</html>

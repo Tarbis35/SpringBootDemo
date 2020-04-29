@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org"
+      th:replace="~{layouts/main-layout :: main-fragment(
+                                                ~{::title},
+                                                ~{:: #home-static-resources},
+                                                ~{:: #home-header},
+                                                ~{:: #home-nav},
+                                                ~{:: #home-main-content},
+                                                ~{:: #home-footer}
+                                               )}">
+    <head>
+        <title>LDAP Demo</title>
+
+        <th:block id="home-static-resources"/>
+
+    </head>
+    <body>
+        <div id="home-header">
+            Home Spring Boot Demo
+        </div>
+        <div id="home-nav" />
+        <div id="home-main-content" class="container formsContainer">
+            <form class="form-signin" name="loginForm" th:action="@{/login}" action="/login" method="POST">
+                <h2 class="form-signin-heading">Please sign in</h2>
+                <input type="text" name="username" id="username" class="form-control" placeholder="Username" required="required" autofocus="autofocus" />
+                <br/>
+                <input type="password" name="password" id="password" class="form-control" placeholder="Password" required="required" />
+                <br/>
+                <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+            </form>
+        </div>
+        <div id="home-footer" th:replace="~{fragments/app-fragments :: copyright}">
+        </div>
+    </body>
+</html>

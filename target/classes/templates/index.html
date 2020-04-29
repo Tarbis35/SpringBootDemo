@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity4"
+      th:replace="~{layouts/main-layout :: main-fragment(
+                                                ~{::title},
+                                                ~{:: #index-static-resources},
+                                                ~{:: #index-header},
+                                                ~{:: #index-nav},
+                                                ~{:: #index-main-content},
+                                                ~{:: #index-footer}
+                                               )}">
+<head>
+    <title>Home</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+</head>
+<body>
+    <div id="index-header">
+        Home
+    </div>
+    <div id="index-nav" th:replace="~{fragments/app-fragments :: nav-default}" sec:authorize="isAuthenticated()"></div>
+    <div id="index-main-content">
+        This is Index page!!!!!
+    </div>
+    <div id="footer" th:replace="~{fragments/app-fragments :: copyright}"></div>
+</body>
+</html>

@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Created-By: IntelliJ IDEA
+Built-By: tarbis
+Build-Jdk: 1.8.0_241
+Implementation-Title: SpringBootDemo
+Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Vendor-Id: com.home
+Main-Class: ${start-class}
+

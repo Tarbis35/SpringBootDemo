@@ -1,0 +1,40 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org"
+      th:replace="~{layouts/main-layout :: main-fragment(
+                                                ~{::title},
+                                                ~{:: #page-static-resources},
+                                                ~{:: #page-header},
+                                                ~{:: #page-nav},
+                                                ~{:: #page-main-content},
+                                                ~{:: #page-footer}
+                                               )}">
+<head>
+    <meta charset="UTF-8">
+    <title>Tipos Servicios</title>
+    <th:block id="page-static-resources"/>
+</head>
+<body>
+    <div id="page-header">Tipo Servicios</div>
+    <div id="page-nav" th:replace="~{fragments/app-fragments :: nav-default}"></div>
+    <div id="page-main-content">
+        <table>
+            <thead>
+            <tr>
+                <th>ID</th>
+                <th>Description</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr th:if="${tipoServiciosList.empty}">
+                <td>No data found.</td>
+            </tr>
+            <tr th:each="tipoServicio : ${tipoServiciosList}">
+                <td><span th:text="${tipoServicio.IDP_TIPO_SERVICIO}">ID</span></td>
+                <td><span th:text="${tipoServicio.DESCRIPCION_V}">Description</span></td>
+            </tr>
+            </tbody>
+        </table>
+    </div>
+    <div id="page-footer" th:replace="~{fragments/app-fragments :: copyright}"></div>
+</body>
+</html>
