@@ -20,7 +20,8 @@
     </div>
     <div id="index-nav" th:replace="~{fragments/app-fragments :: nav-default}" sec:authorize="isAuthenticated()"></div>
     <div id="index-main-content">
-        This is Index page!!!!!
+        This is Index page!!!!! please <li><a th:href="@{/login}">Login</a></li>
+        <
     </div>
     <div id="footer" th:replace="~{fragments/app-fragments :: copyright}"></div>
 </body>
